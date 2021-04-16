@@ -16,5 +16,9 @@
   },
   "peerDependencies": {
     "netlify": "6.x"
-  }
+  },
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/remtori/netlify-partial-deploy.git"
+	}
 }
