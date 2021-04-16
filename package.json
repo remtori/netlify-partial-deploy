@@ -1,0 +1,20 @@
+{
+  "name": "netlify-partial-deploy",
+  "version": "1.0.0",
+  "description": "A fork of netlify js client with an update in deploySite()",
+  "main": "./src/index.js",
+  "types": "./src/index.d.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "remtori <lqvu99@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "backoff": "^2.5.0",
+    "clean-deep": "^3.4.0",
+    "p-map": "^3.0.0"
+  },
+  "peerDependencies": {
+    "netlify": "6.x"
+  }
+}
